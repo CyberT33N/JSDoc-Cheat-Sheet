@@ -20,9 +20,9 @@ async demo() {/*..*/};
 ```javascript
 /**
  * Execute script inside of DOM by creating new function and run it
- * @param {string} - Script - Script we want to execute
- * @param {object} - Puppeteer page
- * @param {number} - Amount of time in ms we delay the execution
+ * @param {string} script - Script - Script we want to execute
+ * @param {object} page - Puppeteer page
+ * @param {number} delay - Amount of time in ms we delay the execution
 */
 async evalScript(script, page, delay) {/*..*/};
 ```
