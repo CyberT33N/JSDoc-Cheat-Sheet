@@ -27,15 +27,29 @@ async demo() {/*..*/};
 async evalScript(script, page, delay) {/*..*/};
 ```
 
+<br><br>
+
+
 # Return (@return)
 ```javascript
 /**
- * @return {string} - Return demo which will be a string
+ * @return {string} - Return demo which will be a string.
 */
 async evalScript() {
 /* do something.. */
 return demo;
 };
+```
+
+## return promises
+```javascript
+/**
+ * @return {Promise<boolean>} - Will resolve with true.
+*/
+example() {return new Promise(resolve => {
+/* do something.. */
+resolve(true);
+});};
 ```
 
 
