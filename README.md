@@ -23,8 +23,11 @@ async demo() {/*..*/};
  * @param {string} script - Script - Script we want to execute
  * @param {object} page - Puppeteer page
  * @param {number} delay - Amount of time in ms we delay the execution
+ * @param {evalScriptCallback} cb - A callback to run.
 */
-async evalScript(script, page, delay) {/*..*/};
+async evalScript(script, page, delay, cb) {
+cb(script);
+};
 ```
 
 <br><br>
