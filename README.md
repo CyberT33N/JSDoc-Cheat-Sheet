@@ -44,6 +44,9 @@ return demo;
 };
 ```
 
+<br><br>
+
+
 ## return promises
 ```javascript
 /**
@@ -53,6 +56,23 @@ example() {return new Promise(resolve => {
 /* do something.. */
 resolve(true);
 });};
+```
+
+<br><br>
+
+
+## destructuring
+```javascript
+/**
+ * My cool function.
+ *
+ * @param {Object} obj - An object.
+ * @param {string} obj.prop1 - Property 1.
+ * @param {string} obj.prop2 - Property 2.
+ */
+var fn = function ({prop1, prop2}) {
+  // Do something with prop1 and prop2
+}
 ```
 
 
