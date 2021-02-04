@@ -7,11 +7,52 @@ JSDoc Cheat Sheet with the most needed stuff..
 - https://jsdoc.app/index.html
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+
 # Description
 ```javascript
 /** This is a sample description.. */
 async demo() {/*..*/};
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br><br>
@@ -80,7 +121,32 @@ async evalScript(script, page, delay, anyFunction, access, cb) {
 
 
 
-<br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+
 
 
 # Return (@return)
@@ -117,7 +183,97 @@ resolve(true);
 
 
 
-<br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+
+
+
+# @typedef (https://jsdoc.app/tags-typedef.html)
+- The @typedef tag is useful for documenting custom types, particularly if you wish to refer to them repeatedly. These types can then be used within other tags expecting a type, such as @type or @param.
+```javascript
+/**
+ * A number, or a string containing a number.
+ * @typedef {(number|string)} NumberLike
+ */
+
+/**
+ * Set the magic number.
+ * @param {NumberLike} x - The magic number.
+ */
+function setMagicNumber(x) {
+}
+```
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+
 
 
 # destructuring
@@ -146,8 +302,30 @@ var fn = function ({prop1, prop2}) {
 
 
 
-<br><br><br><br>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
 
 # callback
 ```javascript
@@ -179,10 +357,3 @@ function addStuff(x, y, callback) {
 
 
 
-
-
-
-<br><br>
- _____________________________________________________
- _____________________________________________________
-<br><br>
