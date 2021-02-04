@@ -26,7 +26,7 @@ async demo() {/*..*/};
  * Execute script inside of DOM by creating new function and run it
  * @param {string} script - Script - Script we want to execute
  * @param {object} page - Puppeteer page
- * @param {number} delay - Amount of time in ms we delay the execution
+ * @param {number|boolean} delay - Amount of time in ms we delay the execution
  * @param {function} anyFunction - A function that will be executed..
  * @param {boolean} access - If user has access or not
  *
