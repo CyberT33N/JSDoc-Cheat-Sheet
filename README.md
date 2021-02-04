@@ -39,7 +39,30 @@ async evalScript(script, page, delay, anyFunction, access, cb) {
 };
 ```
 
+
 <br><br>
+
+
+## Multiple Paramater
+```javascript
+/**
+ * Any fancy description
+ * @param {number|boolean} delay - Amount of time in ms we delay the execution
+*/
+```
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br>
 
 
 # Return (@return)
