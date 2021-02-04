@@ -43,7 +43,7 @@ async evalScript(script, page, delay, anyFunction, access, cb) {
 <br><br>
 
 
-## Multiple Paramater
+## Multiple paramater
 ```javascript
 /**
  * Any fancy description
@@ -51,6 +51,24 @@ async evalScript(script, page, delay, anyFunction, access, cb) {
 */
 ```
 
+
+<br><br>
+
+
+## Optional/default parameter
+```javascript
+/**
+ @param {number} [foo]
+ // or:
+ @param {number=} foo
+*/
+
+
+/**
+ * An optional parameter foo with default value 1.
+ @param {number} [foo=1]
+*/
+```
 
 
 
