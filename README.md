@@ -29,6 +29,8 @@ async demo() {/*..*/};
  * @param {number} delay - Amount of time in ms we delay the execution
  * @param {function} anyFunction - A function that will be executed..
  * @param {boolean} access - If user has access or not
+ *
+ * @callback evalScriptCallback
  * @param {evalScriptCallback} cb - A callback to run.
 */
 async evalScript(script, page, delay, anyFunction, access, cb) {
