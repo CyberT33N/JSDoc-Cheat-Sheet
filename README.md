@@ -55,7 +55,7 @@ async evalScript(script, page, delay, anyFunction, access, cb) {
 <br><br>
 
 
-## Optional/default parameter
+## Optional parameter
 ```javascript
 /**
  @param {number} [foo]
