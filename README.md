@@ -108,10 +108,19 @@ resolve(true);
 });};
 ```
 
-<br><br>
 
 
-## destructuring
+
+
+
+
+
+
+
+<br><br><br><br>
+
+
+# destructuring
 ```javascript
 /**
  * My cool function.
@@ -124,6 +133,53 @@ var fn = function ({prop1, prop2}) {
   // Do something with prop1 and prop2
 }
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br>
+
+
+# callback
+```javascript
+/**
+ * Callback for adding two numbers.
+ *
+ * @callback addStuffCallback
+ * @param {int} sum - An integer.
+ */
+
+/**
+ * Add two numbers together, then pass the results to a callback function.
+ *
+ * @param {int} x - An integer.
+ * @param {int} y - An integer.
+ * @param {addStuffCallback} callback - A callback to run.
+ */
+function addStuff(x, y, callback) {
+  callback(x+y);
+}
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br><br>
