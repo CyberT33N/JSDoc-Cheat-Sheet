@@ -375,6 +375,67 @@ function addStuff(x, y, callback) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+# @private (https://jsdoc.app/tags-private.html)
+```javascript
+/**
+ * Gets called by disconnect listener. After this we restart browser by using .connect()
+ * @private
+ */
+async _onDisconnect() {
+    console.log('_onDisconnect')
+    await this.connect()
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
  _____________________________________________________
  _____________________________________________________
