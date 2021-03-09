@@ -165,13 +165,25 @@ return demo;
 
 ## return promises
 ```javascript
-/**
+/** Example #1
  * @return {Promise<boolean>} - Will resolve with true.
 */
 example() {return new Promise(resolve => {
-/* do something.. */
-resolve(true);
+  /* do something.. */
+  resolve(true);
 });};
+
+
+
+
+/** Example #2
+ * @returns {Promise<void>} - Will resolve with void
+ */
+async ensureConnected() {
+    if(!this.browser) {
+        await this._reconnect()
+    }
+}
 ```
 
 
