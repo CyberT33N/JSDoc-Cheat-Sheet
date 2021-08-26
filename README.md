@@ -184,6 +184,16 @@ async ensureConnected() {
         await this._reconnect()
     }
 }
+
+
+/** Example #3
+ * @returns {Promise<boolean>} - Will return true
+ */
+async ensureConnected() {
+    if(!this.browser) {
+        return true
+    }
+}
 ```
 
 
